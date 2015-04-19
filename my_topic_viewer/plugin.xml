@@ -1,0 +1,17 @@
+<library path="src">
+<class name="TopicDataViewer" type="my_topic_viewer.my_topic_viewer.TopicDataViewer" base_class_type="rqt_gui_py::Plugin">
+<description>
+A Python GUI plugin to introspect ROS topics.
+</description>
+<qtgui>
+<group>
+<label>Mine</label>
+<icon type="theme">folder</icon>
+<statustip>my rqt plugins.</statustip>
+</group>
+<label>Topic data Monitor</label>
+<icon type="theme">system-search</icon>
+<statustip>A Python GUI plugin for monitoring ROS topics.</statustip>
+</qtgui>
+</class>
+</library>

@@ -1,0 +1,16 @@
+<library path="src">
+  <class name="Theta360View" type="theta_view.theta_view.Theta360View" base_class_type="rqt_gui_py::Plugin">
+    <description>
+    </description>
+    <qtgui>
+      <group>
+        <label>VisualizationA</label>
+        <icon type="theme">folder</icon>
+        <statustip>Plugins related to visualization.</statustip>
+      </group>
+      <label>Theta360 View</label>
+      <icon type="theme">view-fullscreen</icon>
+      <statustip>A Python GUI plugin for visualizing a geometry_msgs/Pose message.</statustip>
+    </qtgui>
+  </class>
+</library>
